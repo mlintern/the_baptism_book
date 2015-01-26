@@ -2,6 +2,9 @@ body {
 	background-color: #ccc;
 	font-family: 'Dancing Script', cursive;
 }
+img {
+	box-shadow: 3px 3px 10px #888;
+}
 .page {
 	background-color: #fff;
 	width: 8.5in;
