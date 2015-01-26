@@ -22,9 +22,12 @@ img {
 }
 .title {
 	position: relative;
-	margin-top: 100px;
+	margin-top: 50px;
 	font-size: 100px;
 	text-align: center;
+}
+.title img {
+	margin-top: 50px;
 }
 .background img {
 	width: 100%;
