@@ -37,8 +37,12 @@ img {
 	text-align: center;
 	font-size: 26px;
 	margin-top: 10px;
-	margin-bottom: 20px;
 	position: relative;
+}
+.date {
+	text-align: center;
+	position: relative;
+	margin-bottom: 20px;
 }
 .program {
 	position: relative;
