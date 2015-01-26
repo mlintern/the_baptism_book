@@ -1,0 +1,48 @@
+body { 
+	background-color: #ccc;
+	font-family: 'Dancing Script', cursive;
+}
+.page {
+	width: 8.5in;
+	height: 11in;
+	background-color: #fff;
+	margin: 10px auto;
+	padding: .75in;
+	position: relative;
+}
+.wearer {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+.column {
+	float: left;
+	width: 50%;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.pic img{
+	max-width: 100%;
+}
+.caption {
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 10px;
+	font-size: 18px;
+}
+.page-num {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+.single-photo {
+	margin-top: 25%;
+}
+@media print {
+	body { background-color: #ccc}
+	.page {
+		margin: 0;
+	}
+}
