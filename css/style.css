@@ -33,6 +33,14 @@ body {
 	margin-bottom: 40px;
 	position: relative;
 }
+.program {
+	position: relative;
+	margin-bottom: 20px;
+}
+.program img {
+	max-width: 100%;
+	height: auto !important;
+}
 .column {
 	float: left;
 	width: 50%;
