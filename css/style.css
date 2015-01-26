@@ -5,13 +5,16 @@ body {
 img {
 	box-shadow: 3px 3px 10px #888;
 }
+div {
+	position: relative;
+}
 .page {
 	background-color: #fff;
 	width: 8.5in;
 	height: 10.8in;
 	margin: 20px auto;
 	padding: .5in .75in;
-	position: relative;
+	overflow: hidden;
 }
 .background {
 	position: absolute;
@@ -21,13 +24,16 @@ img {
 	z-index: 0;
 }
 .title {
-	position: relative;
 	margin-top: 50px;
 	font-size: 100px;
 	text-align: center;
 }
 .title img {
 	margin-top: 50px;
+}
+.gen-title{
+	font-size: 40px;
+	text-align: center;
 }
 .background img {
 	width: 100%;
@@ -37,38 +43,43 @@ img {
 	text-align: center;
 	font-size: 26px;
 	margin-top: 10px;
-	position: relative;
 }
 .date {
 	text-align: center;
-	position: relative;
 	margin-bottom: 20px;
 }
 .program {
-	position: relative;
 	margin-bottom: 20px;
 }
 .program img {
 	max-width: 100%;
 	height: auto !important;
 }
-.column {
+.column, .half {
 	float: left;
 	width: 50%;
-	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.third {
+	float: left;
+	width: 33%;
 	min-height: 1px;
 	padding-right: 15px;
 	padding-left: 15px;
 }
 .pic img{
 	max-width: 100%;
+	height: auto !important;
 }
 .caption {
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 	padding: 10px;
 	font-size: 18px;
 	background-color: #fff;
+	margin-top: 10px;
 }
 .page-num {
 	position: absolute;
