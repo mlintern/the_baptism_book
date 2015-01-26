@@ -1,0 +1,7 @@
+@media print {
+	body { background-color: #ffffff; }
+	.page { margin: 0; -webkit-print-color-adjust: exact; }
+	#ad{ display:none; }
+	#leftbar{ display:none; }
+	#contentarea{ width:100%; }
+}
