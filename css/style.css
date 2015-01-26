@@ -35,8 +35,9 @@ img {
 }
 .wearer {
 	text-align: center;
-	font-size: 24px;
-	margin-bottom: 40px;
+	font-size: 26px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 	position: relative;
 }
 .program {
