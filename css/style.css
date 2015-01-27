@@ -11,7 +11,7 @@ div {
 .page {
 	background-color: #fff;
 	width: 8.5in;
-	height: 10.8in;
+	height: 11in;
 	margin: 20px auto;
 	padding: .5in .75in;
 	overflow: hidden;
@@ -38,7 +38,7 @@ div {
 }
 .background img {
 	width: 100%;
-	height: 10.8in;
+	height: 11in;
 }
 .wearer {
 	text-align: center;
@@ -51,9 +51,10 @@ div {
 }
 .program {
 	margin-bottom: 20px;
+	text-align: center;
 }
 .program img {
-	max-width: 100%;
+	max-width: 80%;
 	height: auto !important;
 }
 .column, .half {
