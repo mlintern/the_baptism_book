@@ -78,6 +78,9 @@ div {
 .only-pic {
 	text-align: center;
 }
+.pic{
+	text-align: center;
+}
 .pic img{
 	max-width: 100%;
 	height: auto !important;
