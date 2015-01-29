@@ -8,6 +8,11 @@ img {
 div {
 	position: relative;
 }
+.download {
+	position: fixed;
+	left: 10px;
+	top: 20px;
+}
 .page {
 	background-color: #fff;
 	width: 8.5in;
@@ -108,4 +113,13 @@ div {
 }
 .single-photo {
 	margin-top: 25%;
+}
+
+@-moz-document url-prefix() {
+  .page {
+		height: 11.2in;
+	}
+	.background img {
+		height: 11.2in;
+	}
 }
