@@ -89,6 +89,7 @@ div {
 .pic img{
 	max-width: 100%;
 	height: auto !important;
+	cursor: pointer;
 }
 .large-caption {
 	text-align: center;
