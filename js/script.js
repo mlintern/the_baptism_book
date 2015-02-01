@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 	$('.background img').attr('src',"img/border/vine-border.jpg");
 
-	$('.pic img').click(function() {
+	$('.pic img, .program img').click(function() {
 		url = $(this).attr('src')
 		window.open(url);
   	return false;

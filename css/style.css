@@ -61,6 +61,7 @@ div {
 .program img {
 	max-width: 80%;
 	height: auto !important;
+	cursor: pointer;
 }
 .column, .half {
 	float: left;
