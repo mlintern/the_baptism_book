@@ -64,23 +64,3 @@ Katherine-3.jpg katherine-grace-3
 Katherine with Godparents Laurie Charochak and Matthew Van Horn
 Katherine-4.jpg katherine-grace-4
 Father Leliaert baptizes Katherine Grace 
-
-
-
-
-A couple of typos I noticed: 
-
-On Page 38 there's a Hasecke with a lower case "h" on the first line
-Page 3, type on the second line of the first paragraph--"adn"
-Page 3, typo on the first line of the third paragraph--"teh"
-Page 6 May needs a cap at the end of the first line
-Page 17 "Rhonald" should be "Ronald"
-Page 17 Name under picture should be Brian Russell
-Page 23 "his baptism" should be "her baptism
-Page 41 the second Hasecke needs a capital "H"
-
-No need to use every picture...I just wanted to give you some flexibility
-Feel free to change captions for consistency
-This is fabulous!! Thanks so much for doing it!
-
-
