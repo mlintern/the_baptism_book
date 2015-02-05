@@ -13,6 +13,23 @@ div {
 	left: 10px;
 	top: 20px;
 }
+.info {
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+	padding: 30px 20px 20px;
+	background: #fff;
+	border: solid 2px red;
+	width: 300px;
+	border-radius: 10px;
+	font-size: 20px; 
+}
+.exit {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	color: #000;
+}
 .page {
 	background-color: #fff;
 	width: 8.5in;

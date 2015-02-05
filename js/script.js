@@ -12,4 +12,8 @@ $(document).ready(function(){
 		window.open(url);
   	return false;
 	});
+
+	$(".exit").click(function () { 
+		$(".info").hide();
+	})
 });
