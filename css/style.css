@@ -20,9 +20,10 @@ div {
 	padding: 30px 20px 20px;
 	background: #fff;
 	border: solid 2px red;
-	width: 300px;
+	max-width: 300px;
 	border-radius: 10px;
 	font-size: 20px; 
+	z-index: 5;
 }
 .exit {
 	position: absolute;
