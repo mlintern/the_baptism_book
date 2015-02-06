@@ -1,6 +1,10 @@
 body { 
 	background-color: #ccc;
 	font-family: 'Dancing Script', cursive;
+	line-height: 1.25;
+}
+.boring-font {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 img {
 	box-shadow: 3px 3px 10px #888;
@@ -13,6 +17,9 @@ div {
 	left: 10px;
 	top: 20px;
 }
+.download a {
+	font-size: 20px;
+}
 .info {
 	position: fixed;
 	bottom: 20px;
@@ -24,6 +31,19 @@ div {
 	border-radius: 10px;
 	font-size: 20px; 
 	z-index: 5;
+}
+.font-toggle {
+	position: fixed;
+	top: 20px;
+	right: 10px;
+	font-size: 20px;
+	padding: 20px;
+	background: #fff;
+	border: solid 2px #444;
+	border-radius: 10px;
+}
+.font-toggle .fa-toggle-on{
+	color: green;
 }
 .exit {
 	position: absolute;

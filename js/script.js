@@ -10,10 +10,15 @@ $(document).ready(function(){
 	$('.pic img, .program img').click(function() {
 		url = $(this).attr('src')
 		window.open(url);
-  	return false;
+		return false;
 	});
 
 	$(".exit").click(function () { 
 		$(".info").hide();
-	})
+	});
+
+	$('.font-toggle').click(function(){
+		$(this).find('i').toggleClass('fa-toggle-on fa-toggle-off');
+		$('body').toggleClass('boring-font');
+	});
 });
