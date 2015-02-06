@@ -26,4 +26,4 @@ Great Grandpa and Grandma Musk, Adam and Jack Freas, Larry Robertson, Katherine 
 Group at Will’s baptism
 Ben, Cathy, Katherine, William, Edward, Emily Hasecke, Fred and Linda Hasecke, Martha and Larry Roberston, Mark and Peggy Lintern
 
-Mark I don’t know if you want to identify the pictures of the "dress wearers” as such in each child’s grouping but it was done rather simply in one of the O’Laughlin children’s pictures and it was nicely done/\.
+Mark I don’t know if you want to identify the pictures of the "dress wearers” as such in each child’s grouping but it was done rather simply in one of the O’Laughlin children’s pictures and it was nicely done.
