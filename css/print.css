@@ -5,5 +5,5 @@
 	#leftbar{ display:none; }
 	#contentarea{ width:100%; }
 	.program img { width: 538px; height: 413px; }
-	.download, .info, .font-toggle {display: none;}
+	.download, .info, .font-toggle, .top {display: none;}
 }

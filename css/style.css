@@ -96,11 +96,6 @@ div {
 .content-list li a, .content-list li a:hover{
 	color: #000;
 }
-.wearer-list:after, .wearer-list:before {
-	display: table;
-	clear: both;
-	content: " ";
-}
 .wearer-list li{
 	font-size: 20px;
 	margin-bottom: 5px;
@@ -202,4 +197,12 @@ div {
 	.background img {
 		height: 11.2in;
 	}
+}
+
+@media (max-width: 767px) {
+	.page { width: 100%; padding: 20px; border: solid 5px blue; height: auto;}
+	.gen-title, .title { font-size: 35px; }
+	.page .background { display: none; }
+	.download, .info, .font-toggle, .top { display: none; }
+	ul {padding-left: 15px;}
 }
