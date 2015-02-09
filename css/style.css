@@ -48,6 +48,21 @@ div {
 .font-toggle .fa-toggle-on{
 	color: green;
 }
+.top {
+	position: fixed;
+	bottom: 20px;
+	left: 10px;
+	padding: 30px 20px 20px;
+	background: #fff;
+	border: solid 2px #444;
+	max-width: 300px;
+	border-radius: 10px;
+	font-size: 20px; 
+	z-index: 5;
+}
+.top a, .top a:hover {
+	color: #000;
+}
 .exit {
 	position: absolute;
 	top: 5px;
@@ -73,17 +88,35 @@ div {
 	width: 100%;
 	z-index: 0;
 }
+.content-list li{
+	list-style: none;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.content-list li a, .content-list li a:hover{
+	color: #000;
+}
+.wearer-list:after, .wearer-list:before {
+	display: table;
+	clear: both;
+	content: " ";
+}
+.wearer-list li{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
 .title {
-	font-size: 100px;
+	font-size: 80px;
 	text-align: center;
 	line-height: 1.1;
+	margin-bottom: 75px;
 }
 .title img {
 	margin-top: 50px;
 	max-width: 100%;
 }
 .gen-title{
-	font-size: 40px;
+	font-size: 60px;
 	text-align: center;
 }
 .background img {
