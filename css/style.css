@@ -196,5 +196,6 @@ div {
 	.gen-title, .title { font-size: 35px; }
 	.page .background { display: none; }
 	.download, .info { display: none; }
+	.page-num { bottom: 10px; right: 10px; }
 	ul {padding-left: 15px;}
 }
