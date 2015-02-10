@@ -13,12 +13,12 @@ $(document).ready(function(){
 		return false;
 	});
 
-	$(".exit").click(function () { 
-		$(".info").hide();
-	});
-
-	$('.font-toggle').click(function(){
+	$('.font-toggle .fa').click(function(){
 		$(this).find('i').toggleClass('fa-toggle-on fa-toggle-off');
 		$('body').toggleClass('boring-font');
 	});
+
+	$('.font-toggle, .info').exitButton({top: '-10px', right: '-10px',fontSize: '15px'});
+	$('.download').exitButton({top: '-5px', right: '-5px', fontSize: '10px'});
+	$('.top').exitButton({top: '-5px', right: '-5px', fontSize: '10px'});
 });
