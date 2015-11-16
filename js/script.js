@@ -14,7 +14,7 @@ $(document).ready(function(){
 	});
 
 	$('.font-toggle .fa').click(function(){
-		$(this).find('i').toggleClass('fa-toggle-on fa-toggle-off');
+		$(this).toggleClass('fa-toggle-on fa-toggle-off');
 		$('body').toggleClass('boring-font');
 	});
 

@@ -62,7 +62,7 @@ div {
 	font-size: 20px; 
 	z-index: 50;
 }
-.top a, .top a:hover {
+.top a, .top a:hover, a, a:hover {
 	color: #000;
 }
 .page {
