@@ -24,11 +24,11 @@ jQuery.fn.exitButton = function (settings) {
         });
         if (options.onHover) {
           $(this).find('.exit').hide();
+          $(this).hover(function () {
+            $(this).find('.exit').show();
+          }, function () {
+            $(this).find('.exit').hide();
+          });
         }
-        $(this).hover(function () {
-          $(this).find('.exit').show();
-        }, function () {
-          $(this).find('.exit').hide();
-        });
     });
 };
