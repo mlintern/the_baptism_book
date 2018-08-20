@@ -1,9 +1,9 @@
 @media print {
 	body { background-color: #ffffff; }
 	.page { margin: 0; -webkit-print-color-adjust: exact; }
-	#ad{ display:none; }
-	#leftbar{ display:none; }
-	#contentarea{ width:100%; }
-	.program img { width: 538px; height: 413px; }
-	.download, .info, .font-toggle, .top {display: none;}
+	#ad { display: none; }
+	#leftbar { display: none; }
+	#contentarea { width: 100%; }
+	.program img { height: 413px; width: 538px; }
+	.download, .info, .font-toggle, .top { display: none; }
 }

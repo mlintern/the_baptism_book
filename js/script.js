@@ -1,5 +1,5 @@
-$(document).ready(function(){
-	pageNumbers = $('.page-num');
+$(document).ready(function () {
+	var pageNumbers = $('.page-num');
 
 	pageNumbers.each(function( index ){
 		$(this).html(index+1);
@@ -8,7 +8,7 @@ $(document).ready(function(){
 	$('.background img').attr('src',"img/border/vine-border.jpg");
 
 	$('.pic img, .program img').click(function() {
-		url = $(this).attr('src')
+		var url = $(this).attr('src');
 		window.open(url);
 		return false;
 	});
