@@ -13,13 +13,22 @@ jQuery.fn.exitButton = function (settings) {
     var options = jQuery.extend({
         top: '0',
         right: '0',
-        fontSize: 'inherit'
+        fontSize: 'inherit',
+        onHover: true
     }, settings);
 
     $(this).each( function () {
-        $(this).append('<span style="position:absolute; top: '+options.top+'; right: '+options.right+'; font-size: '+options.fontSize+';background-color: white; border-radius: 20px;" class="fa-stack exit"><i class="fa fa-circle-o fa-stack-2x"></i><i class="fa fa-close fa-stack-1x"></i></span>');
+        $(this).append('<span style="position:absolute; top: ' + options.top+'; right: ' + options.right + '; font-size: ' + options.fontSize + '; background-color: white; border-radius: 20px;" class="fa-stack exit"><i class="fa fa-circle-o fa-stack-2x"></i><i class="fa fa-close fa-stack-1x"></i></span>');
         $(this).find(".exit").click(function () {
             $(this).parent().hide();
+        });
+        if (options.onHover) {
+          $(this).find('.exit').hide();
+        }
+        $(this).hover(function () {
+          $(this).find('.exit').show();
+        }, function () {
+          $(this).find('.exit').hide();
         });
     });
 };
